@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/style.css">
+    <title>Relógio</title>
+</head>
+<body>
+    <h1>Meu Relógio</h1>
+    <div class="container">
+        <div class="data">
+            <label>Data Atual:</label>
+            <input type="text" id="dia" disabled>
+            <span>/</span>
+            <input type="text" id="mesNum" disabled>
+            <span>/</span>
+            <input type="text" id="ano" disabled>
+        </div>
+        <div class="mes">
+            <label>Nome do Mês:</label>
+            <input type="text" id="mes" disabled>
+        </div>
+        <div class="hora">
+            <label>Hora Atual:</label>
+            <input type="text" id="hora" disabled>
+            <span>:</span>
+            <input type="text" id="minuto" disabled>
+            <span>:</span>
+            <input type="text" id="segundo" disabled>
+        </div>
+        <div class="semana">
+            <label>Dia da Semana</label>
+            <input type="text" id="semana" disabled>
+        </div>
+        <div class="botões">
+            <button onclick="exibirRelogio()">Exibir</button>
+            <button onclick="pararRelogio()">Parar Relógio</button>
+            <button onclick="Limpar()">Limpar Relógio</button>
+        </div>
+    </div>
+    
+ <script src="./src/script.js"></script>       
+</body>
+</html>
